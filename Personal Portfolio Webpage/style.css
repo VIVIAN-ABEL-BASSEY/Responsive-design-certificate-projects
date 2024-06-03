@@ -1,0 +1,250 @@
+body{
+    background: #7E2553;
+}
+/* CSS for Header */
+#header {
+    background-color: #7E2553;
+    color: #fff;
+    display: flex;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align:start;
+    justify-items: flex-end;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    z-index: 1000;
+}
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+   padding-left: 670px;
+   align-items: end;
+    justify-items: flex-end;
+}
+
+#navbar ul li {
+    display: inline-flex;
+    margin: 0 0px;
+    padding:0px;
+    align-items: end;
+
+    /* text-align: center; */
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    padding-left: 0px;
+    display: inline-block;
+    margin-top: 15px;
+    /* Align the title vertically in the middle */
+}
+
+#navbar {
+    display: inline-block; /* Ensure the nav-bar is inline-block */
+    /* Align the nav-bar vertically in the middle */
+}
+.welcome{
+    display: block; 
+    font-size: 50px;
+    /* font-weight: 500px; */
+    text-align: center;
+    background-color: #1D2B53;
+    color: aliceblue;
+    height: 300px;
+    margin:0px;
+    padding-top: 150px;
+}
+@media (min-Width:319px) and (max-Width:480px) {
+    .welcome{
+        padding-top: 30px;
+        padding-bottom: 200px;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 481px) {
+    .welcome{
+        padding-top: 30px;
+        padding-bottom: 200px;
+    }
+
+}
+/* CSS for About Section */
+#about {
+    background-color: #f9f9f9;
+    padding: 0px 0;
+    text-align:center;
+}
+
+#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex; /* Use flexbox */
+    justify-content:space-between; /* Space items evenly */
+}
+
+#about h2 {
+    font-size: 2em;
+}
+
+#about p {
+    width: 68%; /* Adjust the width as needed */
+    font: bold;
+    font-size: 20px;
+}
+
+/* Responsive styles */
+@media (min-Width:319px) and (max-Width:480px) {
+    #about .container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    #about p {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+/* CSS for Projects Section */
+#projects {
+    background-color: #FF004D;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#projects .container {
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex; /* Use flexbox */
+    justify-content:space-between; /* Space items evenly */
+}
+
+#projects h2 {
+    font-size: 2em;
+}
+
+.project-tile {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-tile a {
+    color: #333;
+    text-decoration: none;
+    padding-top: 75px;
+}
+
+.project-tile p {
+    margin: 10px 0 0;
+}
+@media (min-Width:319px) and (max-Width:480px) {
+    #projects .container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    #about p {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+/* CSS for Skills Section */
+#skills {
+    background-color: #FAEF5D;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#skills .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.skill {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px;
+    
+}
+
+.skill h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.skill ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill ul li {
+    margin-bottom: 5px;
+}
+
+/* Responsive styles */
+@media (min-Width:319px) and (max-Width:480px) {
+    .skills-list {
+        flex-direction: column;
+    }
+
+    .skill {
+        margin: 10px 0;
+    }
+}
+.contact{
+    display: block;
+    color: white;
+    font-size: 60px;
+}
+
+.contact-container h1{
+    font: bold;
+    font-size: 50px;
+    color: white;
+}
+.contact-container a{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}

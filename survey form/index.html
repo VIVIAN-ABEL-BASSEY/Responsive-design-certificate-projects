@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: image();">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please take a moment to fill out our survey form.</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+        <label for="email" id="email-label">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+        <label for="number" id="number-label" min="1" max="100" >Age:</label><br>
+        <input type="number" id="number" name="number" placeholder="Enter your age" min="1" max="100" required><br>
+        <label for="dropdown" id="dropdown-label">Which tech aspect would you love to explore:</label><br>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">software dev</option>
+            <option value="option2">Data science</option>
+            <option value="option3">AI</option>
+        </select><br>
+            <!-- Other form elements -->
+        <label style="font-size: 30px;">Choose your favorite programming language:</label><br>
+        <input type="radio" id="language1" name="language" value="javascript">
+        <label for="language1">JavaScript</label><br>
+        <input type="radio" id="language2" name="language" value="python">
+        <label for="language2">Python</label><br>
+        <input type="radio" id="language3" name="language" value="java">
+        <label for="language3">Java</label><br>
+        
+        <label style="font-size: 30px;">Choose your favorite color:</label><br>
+        <input type="radio" id="color1" name="color" value="blue" >
+        <label for="color1">Blue</label><br>
+        <input type="radio" id="color2" name="color" value="green">
+        <label for="color2">Green</label><br>
+
+        <label style="font-size: 30px;">What do you enjoy doing with most of your time:</label><br>
+        <label>
+            <input type="checkbox" id="checkbox1" name="interest" value="coding">
+            Coding
+          </label><br>
+          
+          <label>
+            <input type="checkbox" id="checkbox2" name="interest" value="gaming">
+            Gaming
+          </label><br>
+          
+          <label>
+            <input type="checkbox" id="checkbox3" name="interest" value="reading">
+            Reading
+          </label><br>
+          <textarea name="text" id="feedback" placeholder="Send us a feedback here ">feedback</textarea><br>
+          <button type="submit" id="submit" style="width: 74px; height: 40px; font-size: 20px; margin-top:10px;">Submit</button><br>
+    
+    </form>
+
+</body>
+</html>

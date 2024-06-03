@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+#main{
+    /* background-image:url(./images/flower4.jpeg); */
+    height: 100%;
+    background-color:gray
+}
+#title{
+    color: whit;
+    font: bold;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    text-shadow: aqua;
+    margin-left: 60px;
+}
+#more_info_img-div{ 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#img-div{ 
+    /* background-image:url(./images/human.jpeg) ;    */
+    color:  rgb(80, 32, 32);
+    background-color:whitesmoke; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center; /* Centers the content vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+}
+#image{
+    max-width: 100%; /* Ensures the image fits within the container */
+    height: auto;
+    }
+img{
+    display: block;
+}
+#more_info_image{
+    display:flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    max-width: 100%;
+    display: flexbox; 
+}
+#img-caption{
+    color:black;
+    font:bold;
+    /* font-size: 30px; */
+    margin-top: 10px; /* Adds some space between the image and the caption */
+    font-size: 1.2em;
+    /* margin-top: 10px; Adjust as needed */
+}
+#more_info_img-caption{
+    color:blue;
+    font:bold;
+    font-size: 40px;
+}
+#tribute-info{
+    font: bold;
+    font-size: 30px;
+    padding-left: 80px;
+    color:black;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style:italic;
+}
+#tribute-link{
+    margin: 20px;
+    color: blue; 
+    text-decoration: none; 
+    font-weight:bold;
+    font-size: 30px;
+}

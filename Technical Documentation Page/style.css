@@ -1,0 +1,96 @@
+h1{
+    display: block;
+    background-color: brown;
+    color: antiquewhite;
+    font:bold;
+    font-weight: 400;
+    text-align: center;
+}
+h2{
+    color: brown;
+    font:bold;
+}
+a{
+    text-decoration: none;
+}
+img{
+    padding-left:360px;
+}
+/* Main section styling */
+.main-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/* media query */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    /* For example, we can make the main content wider and adjust margins */
+    img{
+        padding-left: 10px;
+        /* margin-right: 900px */
+    };
+    #main-doc {
+        width: 90%;
+        margin: 0 auto;
+        color: blue;
+    }
+}
+
+/* Header styling */
+.main-section header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+/* Article styling */
+.main-section article p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+/* Main section styling */
+#getting-started {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* List styling */
+#getting-started article ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+/* Main section styling */
+#references {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+/* List styling */
+#references article ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Link styling */
+#references article ul li a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+#references article ul li a:hover {
+    text-decoration: underline;
+}
+
+

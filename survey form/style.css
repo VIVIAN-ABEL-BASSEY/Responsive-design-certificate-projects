@@ -1,0 +1,110 @@
+body {
+    background-image: url('./image/images3.png'); /* Replace 'survey_background.jpg' with the path to your image */
+    background-size: cover;
+  }
+
+#title{
+    color: brown;
+    font:bolder;
+    font-weight: 300;
+    font-size: 90px;
+    text-align: center;
+    margin-left: 50px;
+
+}
+#description{
+    font-size:30px;
+    font:bold;
+    margin-left: 50px;
+    text-align: center;
+}
+#survey-form{
+    background-color:gainsboro;
+    width: 870px;
+    margin-left:350px;
+    height: 760px;
+}
+#name-label{
+    font: bold;
+    font-weight: 200;
+    font-size: 40px;
+    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#name{
+    width: 800px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#email-label{
+    font: bold;
+    font-weight: 200;
+    font-size: 40px;
+    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#email{
+    width: 800px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#number-label{
+    font: bold;
+    font-weight: 200;
+    font-size: 40px;
+    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#number{
+    width: 800px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;  
+}
+
+#dropdown-label{
+    font: bold;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 20px;
+ 
+}
+#dropdown{
+    width: 80px;
+    height: 40px;
+    margin-left: 40px;
+     
+}
+#language1{
+    margin-left: 40px;
+    
+}
+#language2{
+    margin-left: 40px;
+}
+#language3{
+    margin-left: 40px;
+}
+#color1{
+    margin-left: 40px;
+}
+#color2{
+    margin-left: 40px;
+}
+#checkbox1{
+    margin-left: 40px
+}
+#checkbox2{
+    margin-left: 40px
+}
+#checkbox3{
+    margin-left: 40px
+}
+#submit{
+    width: 400;
+}
